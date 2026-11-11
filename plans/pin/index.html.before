@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DevAngular333 — practical AI systems and developer tools with demos and verification evidence.">
+  <title>DevAngular333 · AI systems & developer tools</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0d1117; --panel:#151c26; --ink:#f0f6fc; --muted:#9da9b8; --line:#2a3646; --accent:#7ee2b8; --accent2:#90b7ff; }
+    * { box-sizing:border-box; } html, body { max-width:100%; overflow-x:hidden; } body { margin:0; background:linear-gradient(145deg,#0d1117,#101b29 55%,#111d22); color:var(--ink); font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; }
+    a { color:var(--accent); } .wrap { width:min(1120px,calc(100% - 36px)); margin:auto; }
+    header { padding:74px 0 48px; } .eyebrow { color:var(--accent); letter-spacing:.16em; text-transform:uppercase; font-size:.76rem; font-weight:700; }
+    h1 { max-width:800px; margin:14px 0 18px; font-size:clamp(2.4rem,7vw,5.4rem); line-height:.98; letter-spacing:-.065em; }
+    .lead { max-width:690px; color:var(--muted); font-size:1.15rem; } .meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:25px; }
+    .pill { border:1px solid var(--line); border-radius:999px; padding:5px 11px; color:var(--muted); font-size:.84rem; }
+    section { padding:24px 0 58px; } h2 { font-size:1.65rem; letter-spacing:-.03em; } .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card { display:flex; flex-direction:column; min-height:310px; padding:22px; border:1px solid var(--line); border-radius:18px; background:rgba(21,28,38,.84); box-shadow:0 18px 50px #0003; }
+    .card h3 { margin:7px 0 9px; font-size:1.22rem; } .card p { color:var(--muted); margin:0 0 16px; } .status { color:var(--accent2); font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; font-weight:700; }
+    .evidence { width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--line); border-radius:10px; margin:0 0 18px; background:#0d1117; }
+    .launch-media { margin:18px 0 8px; padding:18px; border:1px solid var(--line); border-radius:18px; background:linear-gradient(145deg,#101a2b,#13251f); }
+    .launch-media video { display:block; width:100%; border-radius:12px; background:#0d1117; }
+    .launch-media .media-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:14px; }
+    .launch-media .media-links a { color:var(--accent); }
+    .cover-strip { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:16px 0 6px; }
+    .cover-strip a { display:block; }
+    .cover-strip img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--line); border-radius:12px; }
+    @media (prefers-reduced-motion: reduce) { .launch-media video { scroll-margin-top:20px; } }
+    .card .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:auto; } .note { padding:20px; border-left:3px solid var(--accent); background:#13251f; color:#c6d8d0; }
+    footer { border-top:1px solid var(--line); padding:28px 0 52px; color:var(--muted); font-size:.9rem; } code { color:#c6d5f8; }
+    @media (max-width:800px) { .grid { grid-template-columns:1fr; } header { padding-top:50px; } .card { min-height:0; } }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">DevAngular333 / portfolio</div>
+    <h1>AI systems và developer tools có thể thử, đọc và kiểm chứng.</h1>
+    <p class="lead">Tôi xây sản phẩm local-first với luồng sử dụng cụ thể, demo có thể chạy lại và giới hạn được nói rõ.</p>
+    <div class="meta"><span class="pill">Local-first</span><span class="pill">Evidence-backed</span><span class="pill">Vietnamese + English</span><span class="pill">Zero new spend</span></div>
+  </header>
+  <main class="wrap">
+    <section id="review-pack-video" class="launch-media">
+      <div class="status">Featured · Code2Flow Review Pack v0.5.3</div>
+      <h2>See the change, then keep the proof.</h2>
+      <video controls playsinline preload="metadata" poster="assets/code2flow-review-pack-poster.png" aria-label="Code2Flow Review Pack product video">
+        <source src="https://github.com/NamAIEngineer/design-os-code/releases/latest/download/code2flow-review-pack-launch-1080p.mp4" type="video/mp4">
+        Trình duyệt không phát được MP4. Mở <a href="https://github.com/NamAIEngineer/design-os-code/releases/latest/download/code2flow-review-pack-launch-1080p.mp4">bản media mới nhất</a>, <a href="https://github.com/NamAIEngineer/design-os-code/releases/download/v0.5.3-devangular333/code2flow-review-pack-launch-1080p.mp4">bản v0.5.3</a>, <a href="https://github.com/NamAIEngineer/design-os-code/releases/download/v0.5.1-devangular333/code2flow-review-pack-launch-1080p.mp4">bản v0.5.1 fallback</a> hoặc <a href="review-pack-demo.html">demo tương tác</a>.
+      </video>
+      <div class="media-links"><a href="review-pack-demo.html">Try demo</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/latest/download/code2flow-review-pack-facebook-vertical.mp4">Download vertical cut</a><a href="assets/code2flow-review-pack-preview.gif">Open GIF preview</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/latest/download/code2flow-review-pack-vi.srt">VI subtitles</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/latest/download/code2flow-review-pack-facebook-vi.srt">Vertical subtitles</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/download/v0.5.3-devangular333/code2flow-review-pack-launch-1080p.mp4">v0.5.3 release</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/download/v0.5.1-devangular333/code2flow-review-pack-launch-1080p.mp4">v0.5.1 fallback</a></div>
+    </section>
+    <section aria-labelledby="visual-system-title">
+      <h2 id="visual-system-title">One visual system, three product signals</h2>
+      <div class="cover-strip">
+        <a href="#review-pack" aria-label="Code2Flow Review Pack cover"><img src="assets/code2flow-review-pack-cover.png" alt="Code2Flow Review Pack graph delta cover"></a>
+        <a href="#agent-teacher" aria-label="Agent Teacher cover"><img src="assets/agent-teacher-cover.png" alt="Agent Teacher rehearsal and replay cover"></a>
+        <a href="#inkos-printfilm-lab" aria-label="InkOS bridge cover"><img src="assets/inkos-bridge-cover.png" alt="InkOS bridge document conversion cover"></a>
+      </div>
+    </section>
+    <section>
+      <h2>Sản phẩm và demo có thể thử</h2>
+      <div class="grid">
+        <article class="card" id="review-pack"><div class="status">Featured · Review Pack v0.5.3</div><h3>Code2Flow Review Pack</h3><p>Từ hai graph revision của CRM synthetic có nhãn, Review Pack đưa thay đổi vào danh sách reviewer có thể mở source evidence, ghi chú/trạng thái và export JSON.</p><img class="evidence" src="assets/code2flow-review-pack-cover.png" alt="Code2Flow Review Pack graph delta cover"><div class="links"><a href="review-pack-demo.html">Try demo</a><a href="https://github.com/NamAIEngineer/design-os-code">Repo</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/tag/v0.5.3-devangular333">Release</a><a href="https://github.com/NamAIEngineer/design-os-code/blob/master/docs/case-study.md">Case study</a></div></article>
+        <article class="card" id="code2flow"><div class="status">Released · v0.5.3</div><h3>Code2Flow engine</h3><p>Phân tích static HTML/code thành flow graph và self-contained viewer; Review Pack dùng graph revisions để review thay đổi có bằng chứng.</p><img class="evidence" src="assets/code2flow-review-pack-preview.gif" alt="Code2Flow Review Pack GIF preview"><div class="links"><a href="https://github.com/NamAIEngineer/design-os-code">Repo</a><a href="https://github.com/NamAIEngineer/design-os-code/releases/tag/v0.5.3-devangular333">Release</a><a href="https://github.com/NamAIEngineer/design-os-code/blob/master/docs/case-study.md">Case study</a></div></article>
+        <article class="card" id="agent-teacher"><div class="status">Released · v0.1.1</div><h3>Agent Teacher</h3><p>Luyện dạy phân số tiếng Việt qua session local, coaching authored, transfer, replay và Markdown export.</p><img class="evidence" src="assets/agent-teacher-ui.png" alt="Agent Teacher Vietnamese rehearsal screen"><div class="links"><a href="https://github.com/NamAIEngineer/design-os-pedagogy">Repo</a><a href="https://github.com/NamAIEngineer/design-os-pedagogy/releases/tag/v0.1.1-devangular333">Release</a><a href="https://github.com/NamAIEngineer/design-os-pedagogy/blob/main/docs/case-study.md">Case study</a></div></article>
+        <article class="card" id="inkos-printfilm-lab"><div class="status">Released · v0.2.0</div><h3>InkOS × PrintFilm Lab</h3><p>Bridge file-based từ Markdown/JSON export của InkOS sang project fields của PrintFilm, có metadata và stale-state guard.</p><img class="evidence" src="assets/inkos-cli-evidence.png" alt="InkOS bridge smoke output"><div class="links"><a href="https://github.com/NamAIEngineer/inkos-printfilm-lab">Repo</a><a href="https://github.com/NamAIEngineer/inkos-printfilm-lab/releases/tag/v0.2.0-devangular333">Release</a><a href="https://github.com/NamAIEngineer/inkos-printfilm-lab/blob/main/docs/case-study.md">Case study</a></div></article>
+      </div>
+    </section>
+    <section>
+      <div class="note"><strong>Cách đọc bằng chứng:</strong> Media chính nằm ở release v0.5.3; fallback v0.5.1 vẫn giữ nguyên. Dữ liệu demo là CRM synthetic có nhãn. “PASS” trong các smoke chứng minh luồng kỹ thuật local/offline; `related/unrelated` chỉ là focus-term matching xác định, không phải semantic impact analysis hay certification.</div>
+    </section>
+  </main>
+  <footer><div class="wrap">Public profile: <a href="https://github.com/NamAIEngineer">DevAngular333 / NamAIEngineer</a> · <a href="https://github.com/NamAIEngineer/DevAngular333">profile README</a><br>© 2026 DevAngular333 · Repo và license của từng sản phẩm được ghi tại liên kết tương ứng.</div></footer>
+</body>
+</html>
