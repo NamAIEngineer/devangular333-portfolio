@@ -3,7 +3,7 @@
 Reproducible Remotion composition for the 54-second English introduction.
 
 ```sh
-npm ci
+npm install
 ln -s /path/to/node_modules node_modules
 REMOTION_BROWSER=/path/to/chromium npm run render
 ```
